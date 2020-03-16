@@ -11,8 +11,8 @@ logger = log.get_logger("process")
 class GcodeProcessor:
     def __init__(self):
         self.config = {}
-        self.config['accessKey'] = 'AKIAS56KQ64LZOCK6L4E'
-        self.config['secretKey'] = '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'
+        self.config['accessKey'] = ''
+        self.config['secretKey'] = ''
         self.config['bucketName'] = 'printer.candylero.com'
         self.thread_runner = thread_runner.Runner()
 
